@@ -64,8 +64,6 @@ Installation with pip:
 ## How to use
 - Have Python >= 3.6 installed on your machine
 - Clone or download this repository
-- Create a folder called Data and add your spreadsheets that contain your tweets
-- In a shell, execute the main.py script with Python 3
 
 ---
 
