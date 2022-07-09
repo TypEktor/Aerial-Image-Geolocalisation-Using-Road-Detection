@@ -31,5 +31,5 @@ architectures lies the bottleneck, which borders on contraction and expansion se
 This part uses two 3*3 convolution layers followed by a 2*2 upsampling convolution
 layer.
 
-![U-Net]([https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloSystem.png](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/U-Net.png)?raw=true)
+![U-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/U-Net.png?raw=true)
 
