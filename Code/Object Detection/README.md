@@ -52,6 +52,6 @@ Training a Custom YOLOv3 Object Detector in the Cloud is not a straightforward p
   * The labeled Custom Dataset (not provided here, for copyright reasons)
   * A custom .cfg file
   * A obj.data and obj.names
-  * Atrain.txt and test.txt file
+  * A train.txt and test.txt file
 - 
 
