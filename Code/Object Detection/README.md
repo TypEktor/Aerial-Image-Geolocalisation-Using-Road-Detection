@@ -27,5 +27,5 @@ new architecture called Darknet53, which uses 53 convolutional layers plus addit
 object detection layers that total to 106 layers.
 
 Thus, Darknet53 is the backbone of YOLOv3, and it is the reason for extracting features and directly relate
-them to the relative objects in the image.
+them to the relative objects in the image. The architecture can be shown here:
 ![YOLOv3](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/Yolov3.png?raw=true)
