@@ -1,0 +1,6 @@
+data/obj/800.png
+data/obj/801.png
+data/obj/802.png
+data/obj/803.png
+data/obj/250.png
+
