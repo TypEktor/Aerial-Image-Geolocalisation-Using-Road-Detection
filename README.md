@@ -76,11 +76,13 @@ Installation with pip:
 owns certain copyright or related rights in it (the “Copyright”) and s/he has
 given The University of Manchester certain rights to use such Copyright, including
 for administrative purposes.
+
 -Copies of this thesis, either in full or in extracts and whether in hard or electronic
 copy, may be made only in accordance with the Copyright, Designs and Patents
 Act 1988 (as amended) and regulations issued under it or, where appropriate,
 in accordance with licensing agreements which the University has from time to
 time. This page must form part of any such copies made.
+
 -The ownership of certain Copyright, patents, designs, trade marks and other intellectual
 property (the “Intellectual Property”) and any reproductions of copyright
 works in the thesis, for example graphs and tables (“Reproductions”), which
@@ -88,6 +90,7 @@ may be described in this thesis, may not be owned by the author and may be
 owned by third parties. Such Intellectual Property and Reproductions cannot
 and must not be made available for use without the prior written permission of
 the owner(s) of the relevant Intellectual Property and/or Reproductions.
+
 -Further information on the conditions under which disclosure, publication and
 commercialisation of this thesis, the Copyright and any Intellectual Property
 and/or Reproductions described in it may take place is available in the University
