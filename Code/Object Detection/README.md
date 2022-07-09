@@ -29,3 +29,12 @@ object detection layers that total to 106 layers.
 Thus, Darknet53 is the backbone of YOLOv3, and it is the reason for extracting features and directly relate
 them to the relative objects in the image. The architecture can be shown here:
 ![YOLOv3](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/Yolov3.png?raw=true)
+
+## Data
+The geolocalisation task will be executed based on two cases, by using
+only roads and by using roads and buildings as features. For the second case, the object
+detector YOLOv3 will be used, and thus, a different dataset was necessary in order for
+this detector to be trained. Therefore, a bigger dataset from the same EDINA source
+was extracted. This time 1043 images had been used containing building. These data
+also lack a label set for each image, and for that reason, an open-source program from
+AlexeyAB (https://github.com/AlexeyAB/Yolo_mark) had been used for the labelling process.
