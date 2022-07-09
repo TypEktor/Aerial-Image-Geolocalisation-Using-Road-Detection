@@ -33,3 +33,17 @@ layer.
 
 ![U-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/U-Net.png?raw=true)
 
+### Residual U-Net
+
+The second implementation for detecting roads from the given datasets is a semantic
+segmentation neural network that combines the residual learning (He et al., 2015) with
+the U-Net architecture. Zhang et al. in (Zhang, Liu, and Wang, 2018) proposed an
+architecture which has been shown that it can outperform the initial U-Net by using
+only 1/4 of its parameters. By combining the strengths of both U-Net and residual
+neural networks, this architecture can make the training process easier, and it also
+facilitates information propagation without degradation. In order to achieve these,
+skip connections within a residual unit, and between low levels and high levels of the
+network will be used, and at the same time, fewer parameters will be kept.
+
+![RESU-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/ResUNet.png?raw=true)
+ResUNet
