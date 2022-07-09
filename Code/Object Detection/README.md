@@ -53,5 +53,6 @@ Training a Custom YOLOv3 Object Detector in the Cloud is not a straightforward p
   * A custom .cfg file
   * A obj.data and obj.names
   * A train.txt and test.txt file
+- For properly configuring your custom .cfg file, obj.data, obj.names and train.txt file you can consult this video https://www.youtube.com/watch?v=zJDUhGL26iU&t=300s&ab_channel=TheAIGuy
 - 
 
