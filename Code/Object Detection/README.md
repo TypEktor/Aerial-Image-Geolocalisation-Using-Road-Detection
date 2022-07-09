@@ -49,5 +49,9 @@ Training a Custom YOLOv3 Object Detector in the Cloud is not a straightforward p
 - Clone darknet from AlexeyAB's famous repository, adjust the Makefile to enable OPENCV and GPU for darknet and then build darknet.
 - This work doesn't include pretrained datasets, instead, it uses 1043 images from EDINA, labels them, and then trains the model.
 - In order to create the custom YOLOv3 detector you will need the following: 
-  * The labeled Custom Dataset (not provided here, for copyright reasons), a custom .cfg file, a obj.data, obj.names,  train.txt and test.txt file.
+  * The labeled Custom Dataset (not provided here, for copyright reasons)
+  * A custom .cfg file
+  * A obj.data and obj.names
+  * Atrain.txt and test.txt file
+- 
 
