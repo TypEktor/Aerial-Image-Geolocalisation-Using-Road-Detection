@@ -33,6 +33,7 @@ layer.
 
 ![U-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/U-Net.png?raw=true)
 
+
 ### Residual U-Net
 
 The second implementation for detecting roads from the given datasets is a semantic
