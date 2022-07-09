@@ -38,3 +38,7 @@ this detector to be trained. Therefore, a bigger dataset from the same EDINA sou
 was extracted. This time 1043 images had been used containing building. These data
 also lack a label set for each image, and for that reason, an open-source program from
 AlexeyAB (https://github.com/AlexeyAB/Yolo_mark) had been used for the labelling process.
+
+An example of a photo that has been used for training YOLOv3 can be seen here
+
+![YOLOEx1](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloEx1.jpg?raw=true)
