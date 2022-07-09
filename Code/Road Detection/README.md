@@ -46,4 +46,18 @@ skip connections within a residual unit, and between low levels and high levels 
 network will be used, and at the same time, fewer parameters will be kept.
 
 ![RESU-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/ResUNet.png?raw=true)
-ResUNet
+
+### Multi-Residual U-Net
+The authors in (Ibtehaz and Rahman, 2020a) implement some improvement
+over the initial U-Net architecture, which led to the MultiRes U-Net.
+By taking inspiration from the Inception (Szegedy et al., 2014) family
+networks, the authors proposed a new MultiRes block. This block has replaced the
+convolutional layer pairs from the initial U-Net. As cited in Figure 3.11 instead of
+3*3, 5*5 and 7*7 convolutional layers the MultiRes block contains three 3*3.
+This idea was borrowed by Szegedy et al. (Szegedy et al., 2014) and has been used
+for decreasing the memory requirement. The output of the last two 3*3 convolutional
+layers approximate the output of that of 5*5 and 7*7. Then the output of these
+three layers is concatenated to extract the spatial features in different scales. Finally, a
+residual path has also been added.
+
+![RESU-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/MultiResUnet.png?raw=true)
