@@ -54,5 +54,8 @@ Training a Custom YOLOv3 Object Detector in the Cloud is not a straightforward p
   * A obj.data and obj.names
   * A train.txt and test.txt file
 - For properly configuring your custom .cfg file, obj.data, obj.names and train.txt file you can consult this video https://www.youtube.com/watch?v=zJDUhGL26iU&t=300s&ab_channel=TheAIGuy
-- 
+- For training the custom object detector run the following command
+```
+!./darknet detector train <path to obj.data> <path to custom config> darknet53.conv.74 -dont_show
+```
 
