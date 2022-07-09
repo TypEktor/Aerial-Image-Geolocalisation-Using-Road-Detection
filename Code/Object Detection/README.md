@@ -17,4 +17,15 @@ The below image is a sample of YOLO system, where the image is divided into an S
 of cells. Then by creating bounding boxes and calculating the confidence the system
 predict the objects inside the image
 
-![Thesis Abstract](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloSystem.png?raw=true)
+![YoloSystem](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloSystem.png?raw=true)
+
+### YOLOv3
+YOLOv3 (Redmon and Farhadi, 2018) is the latest upgrade of YOLO, in which the
+speed has been traded off for more accuracy, as the earlier 45 FPS has been decreased to
+30 FPS.However, the accuracy has been rapidly increased due to the complexity of the
+new architecture called Darknet53, which uses 53 convolutional layers plus additional
+object detection layers that total to 106 layers.
+
+Thus, Darknet53 is the backbone of YOLOv3, and it is the reason for extracting features and directly relate
+them to the relative objects in the image.
+![YOLOv3](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YOLOv3.png?raw=true)
