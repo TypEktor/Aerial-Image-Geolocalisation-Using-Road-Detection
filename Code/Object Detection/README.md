@@ -28,4 +28,4 @@ object detection layers that total to 106 layers.
 
 Thus, Darknet53 is the backbone of YOLOv3, and it is the reason for extracting features and directly relate
 them to the relative objects in the image.
-![YOLOv3](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YOLOv3.png?raw=true)
+![YOLOv3](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/Yolov3.png?raw=true)
