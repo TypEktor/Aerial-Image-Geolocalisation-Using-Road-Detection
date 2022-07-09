@@ -42,3 +42,12 @@ AlexeyAB (https://github.com/AlexeyAB/Yolo_mark) had been used for the labelling
 An example of a photo that has been used for training YOLOv3 can be seen here
 
 ![YOLOEx1](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloEx1.jpg?raw=true)
+
+## Process
+Training a Custom YOLOv3 Object Detector in the Cloud is not a straightforward process. This implementation used the Darknet from AlexeyAB's famous repository (https://github.com/AlexeyAB/darknet). For setting up and understand the environment, I suggest, firtstly, to follow AlexeyAB's tutorial and then come back here.
+
+- Clone darknet from AlexeyAB's famous repository, adjust the Makefile to enable OPENCV and GPU for darknet and then build darknet.
+- This work doesn't include pretrained datasets, instead, it uses 1043 images from EDINA, labels them, and then trains the model.
+- In order to create the custom YOLOv3 detector you will need the following: 
+  * The labeled Custom Dataset (not provided here, for copyright reasons), a custom .cfg file, a obj.data, obj.names,  train.txt and test.txt file.
+
