@@ -19,7 +19,7 @@ predict the objects inside the image
 
 ![YoloSystem](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object%20Detection/Images/YoloSystem.png?raw=true)
 
-### YOLOv3
+## YOLOv3
 YOLOv3 (Redmon and Farhadi, 2018) is the latest upgrade of YOLO, in which the
 speed has been traded off for more accuracy, as the earlier 45 FPS has been decreased to
 30 FPS.However, the accuracy has been rapidly increased due to the complexity of the
