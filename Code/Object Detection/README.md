@@ -17,4 +17,4 @@ The below image is a sample of YOLO system, where the image is divided into an S
 of cells. Then by creating bounding boxes and calculating the confidence the system
 predict the objects inside the image
 
-![Thesis Abstract](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/YOLOSystem.jpg?raw=true)
+![Thesis Abstract](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Object Detection/Images/YoloSystem.png?raw=true)
