@@ -63,3 +63,19 @@ three layers is concatenated to extract the spatial features in different scales
 residual path has also been added.
 
 ![MultiRESU-Net](https://github.com/TypEktor/Aerial-Image-Geolocalisation-Using-Road-Detection/blob/main/Code/Road%20Detection/Images/MultiResUnet.png?raw=true)
+
+### Implementation
+
+First of all, sorry for the kinda messy code, this work has been implemented 2 years ago, and because of the weak documentation, it was hard for me today to remember all the details and rerun the whole process again. This implementation is not for new starters as the provided code requires good knowledge of google colab and also good knowledge of how to deal with images as data and how to set up and implement Deep Neural Networks.
+
+As mentioned in previous sections, I won't be able to provide the dataset, used for this project, due to copyrights. However, if you have your own set of images, together with their masks you will be able to use the code with a few modifications. If you are here for the FCN implementations, you will be able to use them with no problem.
+
+In case you use Google Colab don't forget to run:
+```
+from google.colab import drive
+drive.mount('/content/gdrive')
+!ln -s /content/gdrive/My\ Drive/ /mydrive
+!ls /mydrive
+```
+if you have your data in your Google Drive
+
