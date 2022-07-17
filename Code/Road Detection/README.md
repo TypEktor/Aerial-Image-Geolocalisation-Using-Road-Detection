@@ -70,12 +70,12 @@ First of all, sorry for the kinda messy code, this work has been implemented 2 y
 
 As mentioned in previous sections, I won't be able to provide the dataset, used for this project, due to copyrights. However, if you have your own set of images, together with their masks you will be able to use the code with a few modifications. If you are here for the FCN implementations, you will be able to use them with no problem.
 
-In case you use Google Colab don't forget to run:
+In case you use Google Colab don't forget to run if you have your data in your Google Drive:
 ```
 from google.colab import drive
 drive.mount('/content/gdrive')
 !ln -s /content/gdrive/My\ Drive/ /mydrive
 !ls /mydrive
 ```
-if you have your data in your Google Drive
+
 
