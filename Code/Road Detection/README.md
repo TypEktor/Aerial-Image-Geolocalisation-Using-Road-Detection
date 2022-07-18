@@ -82,21 +82,21 @@ Furthermore, the code is provided in .py format, instead of .ipynb. This is beca
 
 There is a total of 9 Python files:
 
-- **1 Manipulation.py : ** The file that manipulates the initial high resolutional aerial images. This contains the code for cropping and saving the new images (256 x 256 x 3) and for compressing the images and their respective masks into a h5py file.
+- **1 Manipulation.py :** The file that manipulates the initial high resolutional aerial images. This contains the code for cropping and saving the new images (256 x 256 x 3) and for compressing the images and their respective masks into a h5py file.
 
-- **2 Road Detection train.py : ** This file contains the structure of the road detection process. Training process
+- **2 Road Detection train.py :** This file contains the structure of the road detection process. Training process
 
-- **3 Road Detection test.py : ** This file contains the testing process. Testing the different UNets.
+- **3 Road Detection test.py :** This file contains the testing process. Testing the different UNets.
 
-- **Acquire_Mass_data : ** This is the file used for downloading the Massachusetts Roads Dataset. These images have been used together with the initial Dataset
+- **Acquire_Mass_data :** This is the file used for downloading the Massachusetts Roads Dataset. These images have been used together with the initial Dataset
 
-- **Metrics.py : ** A file containing all the  custom loss functions and accuracy metrics used for evaluating the models
+- **Metrics.py :** A file containing all the  custom loss functions and accuracy metrics used for evaluating the models
 
-- **Unet.py : ** A file containing a function with the Unet architecture
+- **Unet.py :** A file containing a function with the Unet architecture
 
-- **Res_Unet.py : ** A file containing a function with the Residual Unet architecture
+- **Res_Unet.py :** A file containing a function with the Residual Unet architecture
 
-- **MultiResUnet.py : ** A file containing a function with the Multi-Residual Unet architecture
+- **MultiResUnet.py :** A file containing a function with the Multi-Residual Unet architecture
 
-- **VGG_19.py : ** A file containing a function with the VGG 19 architecture
+- **VGG_19.py :** A file containing a function with the VGG 19 architecture
 
