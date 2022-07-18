@@ -33,11 +33,10 @@ used for the extraction of feature points and feature quantities and then for in
 ---
 
 ## Contents
-- **....py:**  
-- **....py:** 
-- **main.py:** The file that contains the main function
-- **Output:** A folder containing all the outputs from executing the project
-- **requirement.txt:** File that contains all the packages used for this project
+- **Object Detection:** A folder containing the code and the output for the Object Detection part of the Thesis
+- **Road Detection:** A folder containing the code and the output for the Road Detection part of the Thesis
+- **Feature Matching:** A folder containing the code and the output for the Feature Matching part of the Thesis
+
 
 ---
 
@@ -53,17 +52,7 @@ For copyright reasons I won't be able to upload the dataset on GitHub. However, 
 ---
 
 ## Pre-requisites
-
-
-Installation with pip:
-
-```pip install -r requirements.txt```
-
----
-
-## How to use
-- Have Python >= 3.6 installed on your machine
-- Clone or download this repository
+For the Object Detection section, a .yml file is provided for loading the environment into Anaconda. However, as all the other sections have been created into Google Colab, there is not a requirement.txt or a yml file that can be given.
 
 ---
 
