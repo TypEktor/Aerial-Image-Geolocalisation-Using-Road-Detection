@@ -78,5 +78,25 @@ drive.mount('/content/gdrive')
 !ls /mydrive
 ```
 
-Finally, the code is provided in .py format, instead of .ipynb. This is because the code is still in progress to be converted into an automated pipeline, instead of different .ipynb files. As mentioned earlier, with good knowledge of ML and Google Colab, someone will be able to load everything in Google Colab and run the code.
+Furthermore, the code is provided in .py format, instead of .ipynb. This is because the code is still in progress to be converted into an automated pipeline, instead of different .ipynb files. As mentioned earlier, with good knowledge of ML and Google Colab, someone will be able to load everything in Google Colab and run the code.
+
+There is a total of 9 .py files:
+
+- 1 Manipulation.py
+
+- 2 Road Detection train.py
+
+- 3 Road Detection test.py
+
+- Acquire_Mass_data
+
+- Metrics.py
+
+- Unet.py
+
+- Res_Unet.py
+
+- MultiResUnet.py
+
+- VGG_19.py
 
