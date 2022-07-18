@@ -78,4 +78,5 @@ drive.mount('/content/gdrive')
 !ls /mydrive
 ```
 
+Finally, the code is provided in .py format, instead of .ipynb. This is because the code is still in progress to be converted into an automated pipeline, instead of different .ipynb files. As mentioned earlier, with good knowledge of ML and Google Colab, someone will be able to load everything in Google Colab and run the code.
 
